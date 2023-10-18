@@ -1,10 +1,10 @@
 import { name } from "ejs";
 import { Model, Sequelize, DataTypes } from "sequelize";
 
-const sequelize = new Sequelize('personasdb', 'root', 'admin', {
-    host: 'localhost',
+const sequelize = new Sequelize('railway', 'root', 'QTPUvdiJJgZvZnupfzuh', {
+    host: 'containers-us-west-116.railway.app',
     dialect: 'mysql',
-    port: '3306'
+    port: '5660'
 });
 
 class Persona extends Model {}
