@@ -1,5 +1,5 @@
 {
-  "name": "tarea_personasapi",
+  "name": "apirest_personas",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -9,7 +9,7 @@
     "dev": "nodemon src/app.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Ricardo Rodriguez",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^16.3.1",
